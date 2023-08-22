@@ -1,0 +1,41 @@
+td {
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+
+table {
+    border: solid 2px rgb(0, 0, 128);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 128);
+    margin: 0 auto;
+}
+
+#boggle {
+    text-align: center;
+    margin-top: 75px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.err {
+    background-color: rgb(255, 0, 0);
+}
+
+.success {
+    background-color: rgb(0, 200, 0);
+}
+
+.err, .success {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+}
+
